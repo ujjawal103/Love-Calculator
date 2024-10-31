@@ -1,163 +1,245 @@
 *{
-    margin:0%;
-    padding:0%;
-    box-sizing: border-box;
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
 }
 
 html,body{
-    height:100%;
-    width:100%;
+   height:100%;
+   width:100%;
 }
 body{
-   background-color: rgb(134, 61, 123);
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
+  background-color: rgb(134, 61, 123);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .container{
-   background-color:  rgb(214, 13, 140);
-   border: 2px solid brown;
-   line-height: 3rem;
-   padding: 20px;
-   border-radius: 20px;
+  background-color:  rgb(214, 13, 140);
+  border: 2px solid brown;
+  line-height: 3rem;
+  padding: 20px;
+  border-radius: 20px;
 
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
-   
+  
 }
 .love{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 button{
-   display: block;
+  display: block;
 }
 input{
-   padding: 10px;
-   background-color:rgb(175, 81, 141) ;
-   border: 2px solid rgb(133, 79, 183);
-   box-shadow: black;
-   margin: 20px;
-   color: rgb(21, 211, 192);
-   font-size: larger;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-style: oblique;
-   
+  padding: 10px;
+  background-color:rgb(175, 81, 141) ;
+  border: 2px solid rgb(133, 79, 183);
+  box-shadow: black;
+  margin: 20px;
+  color: rgb(21, 211, 192);
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  
 }
 #you{
-   border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 #crush{
-   border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 #length{
-   border: 2px solid rgb(167, 11, 235);
-   background-color:rgb(159, 136, 195) ;
-   color: rgb(255, 255, 255);
-   padding: 10px;
-   /* border-top-left-radius: 20px;
-   border-top-right-radius: 20px; */
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  border: 2px solid rgb(167, 11, 235);
+  background-color:rgb(159, 136, 195) ;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .length{
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 ::placeholder{
-   color: white;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-style: oblique;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
 }
 
 button{
-   padding: 20px;
-   border-radius: 10px;
-   border: 2px solid brown;
-   color: white;
-   background-color: rgb(67, 110, 110);
-   cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid brown;
+  color: white;
+  background-color: rgb(67, 110, 110);
+  cursor: pointer;
 }
 
 
 #regenerate{
-   margin: 0%;
-   /* background-color: rgb(41, 42, 37); */
-   padding: 10px;
-   position: relative;
-   left: 190px;
+  margin: 0%;
+  /* background-color: rgb(41, 42, 37); */
+  padding: 10px;
+  position: relative;
+  left: 190px;
 }
 
 #password{
-   font-family: Arial, Helvetica, sans-serif;
-   font-style: oblique;
-   color: darkmagenta;
-   position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  color: darkmagenta;
+  position: relative;
 }
 
 #password img{
-   z-index: 1;
-  
-   text-shadow: aqua;
+  z-index: 1;
+ 
+  text-shadow: aqua;
 }
 h3{
-   padding: 5px;
-   position: absolute;
-   top: 33px;
-   left: 43px;
-   display: block;
-   width: 170px;
-   height: 170px;
-   /* background-color: aqua; */
+  padding: 5px;
+  position: absolute;
+  top: 33px;
+  left: 43px;
+  display: block;
+  width: 170px;
+  height: 170px;
+  /* background-color: aqua; */
 
-   text-align: center;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-   font-size: 3rem;
+  font-size: 3rem;
 
-   overflow-wrap: normal;
+  overflow-wrap: normal;
 
-   color: aqua;
+  color: aqua;
 
-   z-index: 2;
+  z-index: 2;
 
-   cursor: pointer;
+  cursor: pointer;
 }
 
 i{
-   font-size: 2rem;
-   /* color: greenyellow; */
+  font-size: 2rem;
+  /* color: greenyellow; */
 }
 
 .hide{
-   display: none;
+  display: none;
 }
 
 button:hover{
-   scale: 1.1;
+  scale: 1.1;
 }
 
 .box{
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #toon{
-   position: absolute;
-   top: 400px;
-   left: 480px;
+  position: absolute;
+  top: 400px;
+  left: 480px;
 }
 .box img{
-   width: 200px;
-   height: 200px;
+  width: 200px;
+  height: 200px;
 }
+
+
+
+@media (max-width : 650px){
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  .container{
+     width: 95vw;
+     /* height: 300px; */
+     background-color:  rgb(214, 13, 140);
+     border: 2px solid brown;
+     line-height: 3rem;
+     padding: 20px;
+     border-radius: 20px;
+  
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+  
+     
+  }
+  .love{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     flex-wrap: wrap;
+     #crush{
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+     }
+     .pyar i{
+        /* background-color: aliceblue; */
+        color: greenyellow;
+        width: 10px;
+        height: 10px;
+     }
+  }
+  #generate{
+     /* display: block; */
+     padding: 20px;
+     border-radius: 10px;
+     border: 2px solid brown;
+     color: white;
+     background-color: rgb(67, 110, 110);
+     cursor: pointer;
+  }
+  .box{
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+     align-items: center;
+     position: relative;
+  }
+  #regenerate{
+     margin: 0%;
+     padding: 10px;
+     position: absolute;
+     right: 8px;
+     bottom: 13px;
+  }
+  .box img{
+     width: 100px;
+     height: 100px;
+  }
+  #toon{
+     position: absolute;
+     top: -100px;
+     left: 0px;
+
+     
+
+  }
+} 
